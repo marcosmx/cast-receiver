@@ -1,3 +1,12 @@
+/**
+ * skin module. This module returns an object that contains the inline modifications
+ * on the Ooyala skin.
+ * This skin object overrides and hide the non used elements by a player that will be used on 
+ * a Chromecast device
+ * 
+ * @module skin
+ * @return {object} skin
+ */
 const skin = {
     startScreen: {
         showPlayButton: true,
